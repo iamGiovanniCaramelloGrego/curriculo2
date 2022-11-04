@@ -96,7 +96,7 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  background-color: currentColor;
+  background-color: whitesmoke;
   border: 0;
   opacity: 0.25;
 }
@@ -219,7 +219,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: var(--bs-white);
 }
 
 sub,
@@ -609,7 +609,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: whitesmoke;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -2219,7 +2219,7 @@ progress {
 }
 .form-control:focus {
   color: #212529;
-  background-color: #fff;
+  background-color: whitesmoke;
   border-color: #b2d0ce;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(100, 161, 157, 0.25);
@@ -2240,7 +2240,7 @@ progress {
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
-  background-color: #e9ecef;
+  background-color: var(--bs-white);
   opacity: 1;
 }
 .form-control::-webkit-file-upload-button {
@@ -2249,7 +2249,7 @@ progress {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color: whitesmoke;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
@@ -2265,7 +2265,7 @@ progress {
   -webkit-margin-end: 0.75rem;
           margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color: var(--bs-white);
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
