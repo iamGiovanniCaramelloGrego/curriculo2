@@ -1,1 +1,3 @@
-# curriculo2
+# curriculo
+
+ https://iamgiovannicaramellogrego.github.io/curriculo2/
